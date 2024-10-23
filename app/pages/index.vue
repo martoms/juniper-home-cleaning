@@ -18,12 +18,10 @@
     </header>
 
     <main id="estimate" class="mx-auto w-full max-w-6xl px-4 pb-32 sm:px-6 md:pb-12 lg:px-8">
-      <section class="no-print relative overflow-hidden rounded-3xl bg-primary px-6 py-9 text-primary-foreground shadow-sm sm:px-10 sm:py-12">
-        <div class="hero-leaf hero-leaf-left" aria-hidden="true" />
-        <div class="hero-leaf hero-leaf-right" aria-hidden="true" />
+      <section class="no-print relative grid items-center gap-8 overflow-hidden rounded-3xl bg-primary px-6 py-9 text-primary-foreground shadow-sm sm:px-10 sm:py-12 lg:grid-cols-[minmax(0,1fr)_256px]">
         <div class="relative max-w-2xl">
           <p class="text-xs font-bold tracking-[0.18em] text-primary-foreground/75">HOME CLEANING MADE SIMPLE</p>
-          <h1 class="mt-3 max-w-xl text-4xl font-semibold tracking-tight sm:text-5xl">Get a clear cleaning estimate.</h1>
+          <h1 class="mt-3 max-w-xl font-display text-4xl leading-[1.08] font-normal tracking-[-0.035em] sm:text-[3.25rem]">Get a clear cleaning estimate.</h1>
           <p class="mt-4 max-w-xl text-base leading-7 text-primary-foreground/80 sm:text-lg">
             Choose a service, tell us about your home, and see your price before you book.
           </p>
@@ -33,6 +31,14 @@
             <li class="flex items-center gap-2"><span class="size-1.5 rounded-full bg-[#e9c38a]" /> Saved on this device</li>
           </ul>
         </div>
+        <img
+          src="~/assets/images/juniper-home-vignette.webp"
+          alt=""
+          width="640"
+          height="693"
+          class="pointer-events-none hidden w-64 select-none lg:block"
+          aria-hidden="true"
+        >
       </section>
 
       <div class="mt-6 grid items-start gap-6 lg:mt-8 lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-8 xl:grid-cols-[minmax(0,1fr)_360px]">
