@@ -18,6 +18,13 @@ export default defineNuxtConfig({
             'Build a transparent home cleaning estimate in under a minute.',
         },
       ],
+      link: [
+        {
+          rel: 'icon',
+          type: 'image/svg+xml',
+          href: '/favicon.svg',
+        },
+      ],
     },
   },
   typescript: {
